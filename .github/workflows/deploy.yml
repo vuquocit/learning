@@ -22,5 +22,4 @@ jobs:
         run: |
           cd /var/www/html/laravel
           cp .env.prod .env
-          npm install
           npm run build
